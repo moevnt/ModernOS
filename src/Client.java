@@ -7,9 +7,9 @@ import java.net.UnknownHostException;
 
 public class Client{
 
-	private static int port = 8001;
+	private static int port = 5575;
 
-	public static void main(String[] args) throws UnknownHostException, IOException,ClassNotFoundException,InterruptedException {
+	public static void main(String[] args) throws IOException,ClassNotFoundException,InterruptedException {
 
 		InetAddress host = InetAddress.getLocalHost();
 		Socket socket = null;
