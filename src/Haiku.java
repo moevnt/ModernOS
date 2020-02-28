@@ -3,7 +3,7 @@ public class Haiku {
 	private String lines;
 
 	public Haiku(){
-		int choice = (int) (Math.random()*5);
+		int choice = (int) (Math.random()*6);
 
 		switch (choice) {
 			case 1:
@@ -49,8 +49,6 @@ public class Haiku {
 	}
 
 	public static void main(String[] args){
-		Haiku h = new Haiku();
-		System.out.println(h.getLines());
 
 	}
 
