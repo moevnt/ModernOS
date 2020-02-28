@@ -7,7 +7,9 @@ public class Haiku {
 
 		switch (choice) {
 			case 1:
-				lines = "Delightful display\nSnowdrops bow their pure white heads\nTo the sun's glory";
+				lines = "Delightful display\n" +
+						"Snowdrops bow their pure white heads\n" +
+						"To the sun's glory";
 				break;
 			case 2:
 				lines = "Like crunchy cornflakes\n" +
