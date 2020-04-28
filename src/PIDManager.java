@@ -45,9 +45,6 @@ public class PIDManager {
 			System.out.println(key + " --> " + map.get(key));
 		}
 		System.out.println();
-//		for(int i=0;i<4700;i++){
-//			System.out.println(stack.pop());
-//		}
 	}
 
 	public static void main(String [] args){
